@@ -1,12 +1,12 @@
 import React from "react"
 
-function Books(){
-    return (
-        <main>
-            <h1>Viaje a la luna</h1>
-            <h3>Julio Verne</h3>
-        </main>
-    )
+function Books(props){
+return (
+<div>
+<h1>{props.book}</h1>
+<h3>{props.author}</h3>
+</div>
+)
 }
 
 export default Books
